@@ -1,27 +1,25 @@
 # Online Shopping Cart (E-Commerce Website)
-- Youtube Video for introduction, demo and setup for this Project: https://www.youtube.com/watch?v=RgQG0_orFpM
-<!-- - YouTube video for step by step local setup of similar project: https://www.youtube.com/watch?v=mLFPodZO8Iw&t=8s -->
-<!-- Live site url: https://ellisonelectronics.herokuapp.com -->
+
 This is an E-Commerce Website build for selling of any electronics products online.
 
 ### About
 
-In this projects a user can visit the websites, registers and login to the website. They can check all the products available for shopping, filter and search item based on different categories, and then add to cart. They can add multiple item to the cart and also plus or minus the quantity in the cart. Once the cart is updated, the user can proceed to checkout and click the credit card payment details to proceed. Once the payment is success the orders will be placed and users will be able to see the orders details in the orders section along with the shipping status of the product.
+In this project, a user can visit the website, register, and log in securely. They can browse all available products, apply category-based filters, search items, and add products to the cart. The user can also update the quantity (increase/decrease) in the cart. Once the cart is finalized, the user can move to checkout and proceed with demo credit-card payment. After successful payment, the order is placed and will be visible under the orders section along with shipment status.
 
-The admin also plays an important role for this project as the admin is the one responsible for adding any product to the store, updating the items, removing the item from the store as well as managing the inventory. The admin can see all the product orders placed and also can mark them as shipped or delivered based on the conditions.
+The **Admin panel** manages the entire store by adding, updating, or deleting products, monitoring inventory, and handling orders. Admin can update order shipping status and delivery status.
 
-One of the best functionality that the projects include is mailing the customers, so once a user registers to the website, they will recieve a mail for the successful registration to the website, and along with that whenever a user orders any product or the product got shipped from the store, then the user will also receive the email for its confirmation.
-Sometimes, if the user tried to add any item which is out of stock, them they will get an email one the item is available again the stock.
 
-Note: The payment page is created only for demo purpose and its not fully integrated with any payment gateway. So for now any credit card details will be accepted and the demo orders will be placed.
+A major highlight of this project is **automated email communication**. Users receive emails during registration, order placement, order shipment, product restocking, and delivery confirmation. If a product is out of stock and later becomes available, the user will be notified via email automatically.
+
+**Note:** The payment module is for demonstration only — no real payment gateway integration. Any card details will be accepted for demo purposes.
 
 ## Highlights :--
 
-### The users will get a mail to their registered mail Id during:-
-- New User Registration
-- Order Successfully Placed
-- The Item was out of stock while exploring but now it got available in the store
-- Successful shipment and delivery of the Item
+### Users will receive email notifications for the following actions:
+- Successful Registration  
+- Order Successfully Placed  
+- Out-of-Stock Product Becomes Available  
+- Successful Shipment & Delivery  
 
 ### Technologies used:-
 1. Front-End Development:
@@ -31,13 +29,13 @@ Note: The payment page is created only for demo purpose and its not fully integr
 - BootStrap
 
 2. Back-End Development:
-- Java [JDK 8+]
+- Java (JDK 8+)
 - JDBC
 - Servlet
 - JSP
 
 3. Database:
-- MySql
+- MySQL
 
 ### ================ Software And Tools Required ================
 - : Git [https://www.youtube.com/watch?v=gv7VPQ4LZ7g]
@@ -74,7 +72,7 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/shopping-cart.git```> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/Venkatesh66666/Shopping-Cart.git```> Select master Branch > Next > Next > Finish.
 
 Step 3: Go inside ```Java Resources > src > application.properties``` and update the values as below:
 - a) Update value for db.username and db.password according to your installed mysql credentials.
@@ -113,46 +111,60 @@ Note:- This is a Sample Project for learning purpose, we have not much considere
 
 #### Some Screenshots for the project:
 - Home Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/6161fb90-ac83-445d-9fb2-56681f6a52b4)
+<img width="1920" height="1008" alt="Home Page" src="https://github.com/user-attachments/assets/faa52984-7024-4ebb-8ac8-52a18e966bc5" />
+
 - Login Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/c5451416-a669-4d76-ad84-9b8ea26bf6b4)
+<img width="1920" height="1008" alt="Login Page" src="https://github.com/user-attachments/assets/09e71eb1-a3e4-4d18-be37-bb4111809918" />
+
 - Register Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/19f06ec9-70aa-4700-8846-a2e6514d88c2)
+<img width="1920" height="1008" alt="Register Page" src="https://github.com/user-attachments/assets/a4fdd8f6-9a7f-4042-82e0-33b20aa273f5" />
+
 - Category Wise Product Filter
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/757e552c-1526-4142-869b-ffbf27a232e0)
+<img width="1920" height="1008" alt="Category Wise Product Filter" src="https://github.com/user-attachments/assets/45190aca-f7bb-4b37-a470-bae9b570a188" />
+
 - Cart Items
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/12963112-1276-49ca-8b9c-f3272c6b9b7b)
+<img width="1920" height="1008" alt="Cart Items" src="https://github.com/user-attachments/assets/2a8cc8ea-43e3-47e3-9e50-c6b2a9940861" />
+
 - Credit Card Payment
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/990595ce-856c-46fe-8182-052a127d67b4)
+<img width="1920" height="1008" alt="Credit Card Payment" src="https://github.com/user-attachments/assets/59538974-3869-42a2-9b96-236290b9277e" />
+
 - Order Details & Status
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/db8b4511-cac0-41df-930a-ef3bdebe5c24)
+<img width="1920" height="1008" alt="Order Details   Status" src="https://github.com/user-attachments/assets/fc83e23d-fb0a-4d31-a38e-88a7ab1cb51d" />
+
 - User Profile
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/aa22b0cd-726b-4e5c-85cd-5409b7fc5391)
+<img width="1920" height="1008" alt="User Profile" src="https://github.com/user-attachments/assets/7ab54758-96b1-4806-943f-7a1966c62097" />
 
 - Admin Home
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/0e909800-b9a2-4ece-884c-24cdc8ca931a)
+<img width="1920" height="1008" alt="Admin Home" src="https://github.com/user-attachments/assets/f956bf5d-a458-43c0-8f0f-028c7a9d2dc1" />
+
 - Stock Items
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/e94e519b-e65c-4f51-8b37-e1b555208f2d)
+<img width="1920" height="1008" alt="Stock Items" src="https://github.com/user-attachments/assets/e3922d13-bd25-4d8d-863f-6ba9c986fd1b" />
+
 - Shipped Items
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/e34de1d9-91ae-4d3b-a38e-7d78aae1f410)
+<img width="1920" height="1008" alt="Shipped Items" src="https://github.com/user-attachments/assets/416e68ef-0070-458f-8fba-483899daff40" />
+
 - Recent Orders yet to be shipped
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/ed2df621-3256-41bd-8739-d3872474403c)
+<img width="1920" height="1008" alt="Recent Orders yet to be shipped" src="https://github.com/user-attachments/assets/39752907-6809-4a80-851c-272f87a709b8" />
+
 - Add Product to the stock
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/3f38b7cf-c120-4523-abec-cdb2238c17b0)
+<img width="1920" height="1008" alt="Add Product to the stock" src="https://github.com/user-attachments/assets/91f76329-c372-4b45-ab4c-433d420c58df" />
+
 - Remove Product from the stock
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/1e9c6565-6a14-4cb3-834e-8d7f5d273927)
+<img width="1920" height="1008" alt="Remove Product from the stock" src="https://github.com/user-attachments/assets/93438a22-dc10-41ce-b851-1e9df8ab8eaa" />
+
 - Update the stock item
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/1529a9a7-19a3-4381-ac58-29dbc55229d9)
+<img width="1055" height="551" alt="Update the stock item" src="https://github.com/user-attachments/assets/fc8b5030-6bcd-412c-b0e7-2288cfe17d2d" />
+
 - Sample Email for order placed
-<img width="404" alt="image" src="https://github.com/shashirajraja/shopping-cart/assets/34605595/cb60c616-c32c-42eb-abe5-494d8574c09a">
+<img width="598" height="418" alt="Sample Email for order placed" src="https://github.com/user-attachments/assets/336ac012-0b66-470a-a705-59495cc6f2ec" />
 
 - Class Diagram
-<img width="589" alt="image" src="https://github.com/shashirajraja/shopping-cart/assets/34605595/d6dbfdb9-5108-4071-b4b6-d055f0370acd">
+<img width="942" height="581" alt="Class Diagram" src="https://github.com/user-attachments/assets/fb33dd4d-0071-448a-9cd3-bdb808792d5c" />
 
 #### "Suggestions and project improvement ideas are welcomed!"
 
 <bold>Thanks a lot,</bold><br/>
                                                                                                         Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
+                                                                                                         <b>Venkatesh Choppadhandi</b>
 
 
